@@ -1,0 +1,49 @@
+.btn {
+  box-shadow: none !important;
+}
+
+.btn:hover {
+  background-color: white !important;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn {
+  border-color: var(--bs-primary);
+}
+
+.btn2 {
+  background-color: white !important;
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn2:hover {
+  background-color: var(--bs-primary) !important;
+  color: #ffffff;
+  border-color: var(--bs-primary);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: var(--bs-primary);
+  color: white;
+}
+
+div::first-letter, span::first-letter, a::first-letter {
+  /*font-size: 200%;*/
+  /*text-transform: uppercase;*/
+  /*color: #8A2BE2;*/
+}
+
+a.dropdown-item::first-letter {
+  /*font-size: 200%;*/
+  /*color: red;*/
+  text-transform: uppercase;
+}
+
+@media (max-width: 765px) {
+  #birdimagehomehero {
+    display: none;
+  }
+}
+
